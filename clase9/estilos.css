@@ -1,0 +1,20 @@
+body {
+    background-image: url(../img/herringbone.png);
+}
+
+.botones {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.barras p {
+    margin-bottom: 0px;
+}
+
+.botonFormulario {
+    margin-top: 5px;
+}
+
+#botonera {
+    display: none;
+}
