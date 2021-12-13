@@ -74,7 +74,7 @@ botonTres.addEventListener("click" , itemBoton);
 /* Para evitar que se envíe el formulario con Enter */
 let campoNombre = document.getElementById("nombreUsuario");
 
-campoNombre.addEventListener("key" , e=>{
+campoNombre.addEventListener("keydown" , e=>{
     if (e.key === "Enter") {
         e.preventDefault();
     }
